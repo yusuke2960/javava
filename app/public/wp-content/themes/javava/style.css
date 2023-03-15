@@ -1,0 +1,789 @@
+/*
+Theme Name: javava
+*/
+
+
+
+body {
+    background-color: rgb(246, 242, 235);
+    font-family: "Noto Serif JP", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content_body {
+    display: flex;
+}
+
+/*header*/
+.header_nav {
+    display: flex;
+    height: auto;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.header_logo {
+    height: 100%;
+}
+
+.header_navbar {
+    margin-left: auto;
+    display: block;
+    margin-right: 35px;
+}
+
+.navbar_item {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar_item span {
+    position: relative;
+    font-weight: bold;
+}
+
+.navbar_item span:hover {
+    color: blue;
+}
+
+.navbar_item span::before,
+.navbar_item span::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: blue;
+    transition: width 0.5s;
+}
+
+.navbar_item span::before {
+    right: 50%;
+}
+
+.navbar_item span::after {
+    left: 50%;
+}
+
+.navbar_item span:hover::before,
+.navbar_item span:hover::after {
+    width: 50%;
+}
+
+
+
+/*メインビジュアル*/
+
+.main_visual {
+    display: flex;
+    align-items: center;
+}
+
+.main_text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_maintxt {
+    margin-bottom: 30px;
+}
+
+.main_hoge {
+    padding: 40px;
+}
+
+.main_pro {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main_sub {
+    margin-top: 30px;
+    font-size: 85%;
+}
+
+/*メインボタン*/
+.main_btn {
+    display: flex;
+    padding-top: 30px;
+}
+
+.main_button {
+    border: none;
+    margin: 20px;
+    background-color: #ffffff;
+    width: 340px;
+    padding: 15px 0;
+    color: #000000;
+    font-size: 16px;
+    font-family: "Noto Serif JP", serif;
+    border-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 3px 3px 0 #898888;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.main_button::after {
+    background: darkblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+    z-index: -1;
+}
+
+.main_button:hover {
+    color: #fff;
+}
+
+.main_button:hover::after {
+    transform: scale(1, 1);
+}
+
+/*スライダー*/
+.slider {
+    width: 55%;
+}
+
+.slick-dots {
+    bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.slick-prev:before {
+    content: url("/wp-content/themes/javava/images/arrow_prev.png");
+}
+
+.slick-next:before {
+    content: url("/wp-content/themes/javava/images/arrow_next.png");
+}
+
+.autoplay_frame {
+    width: 1200px;
+    margin: auto;
+}
+
+.autoplay {
+    margin: 20px auto;
+    width: 100%;
+}
+
+.autoplay_txt {
+    text-align: center;
+    padding: 30px;
+}
+
+.autoplay_txt>a {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    /*アニメーションの指定*/
+    transition: all .7s;
+}
+
+.autoplay_txt>a::after {
+    content: '';
+    /*絶対配置で線の位置を決める*/
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    /*背景の形状*/
+    width: 0;
+    height: 1px;
+    background: darkblue;
+    opacity: 0;
+    /*はじめは透過を0に*/
+}
+
+/*現在地とhoverの設定*/
+.autoplay_txt>a:hover::after {
+    /*背景の形状*/
+    width: 100%;
+    opacity: 1;
+    /*アニメーションの指定*/
+    animation: bgappear 0.5s forwards;
+}
+
+/*アニメーションで線を伸ばして背景をつける*/
+@keyframes bgappear {
+    0% {
+        width: 0%;
+        height: 1px;
+    }
+
+    50% {
+        width: 100%;
+        height: 1px;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+        background: darkblue;
+    }
+}
+
+/*現在地とhoverの設定*/
+.autoplay_txt>a:hover {
+    color: #fff;
+    /*テキストを最前面へ*/
+    z-index: 1;
+}
+
+.autoplay_inner {
+    background-color: #ffffff;
+    box-shadow: 0 3px 3px 0 #898888;
+    border-radius: 5px;
+    margin: 20px 20px 20px 60px;
+    width: 280px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.autoplay_inner img {
+    max-width: 280px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.autoplay_inner img:hover {
+    transform: scale(1.1, 1.1);
+    transition: 1s all;
+}
+
+.slick-prev.slick-arrow {
+    width: 70px;
+    height: 70px;
+    background-color: #FFF;
+    z-index: 3;
+    border-radius: 35px;
+    box-shadow: 0 3px 3px 0 #898888;
+    margin-left: -15px;
+}
+
+.slick-next.slick-arrow {
+    width: 70px;
+    height: 70px;
+    background-color: #FFF;
+    z-index: 3;
+    border-radius: 35px;
+    box-shadow: 0 3px 3px 0 #898888;
+    margin-right: -15px;
+}
+
+/*News*/
+
+.news_archive_small {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #898888;
+}
+
+.news_list {
+    list-style: none;
+    padding-right: 100px;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.news_small_title>a {
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.news_small_title>a:hover {
+    color: blue;
+}
+
+/*事業TOP*/
+
+.index_sub {
+    width: 100%;
+    max-width: 900px;
+    margin: 15px auto;
+    background-color: #FFF;
+    padding: 35px 55px;
+}
+
+.index_small_title {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: #000000;
+}
+
+.top_page_jigyou_detail {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.top_txt {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 180%;
+}
+
+.index_txt {
+    border-bottom: 2px solid #888;
+    color: #888;
+}
+
+.archive_detail {
+    text-decoration: none;
+    color: #000000;
+    font-size: 80%;
+    text-align: end;
+    margin: 25px;
+    transition: all 0.3s ease;
+}
+
+.archive_detail:hover {
+    color: blue;
+}
+
+.index_sub_sita {
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: #FFF;
+}
+
+.index_title {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.index_title::after {
+    width: 35px;
+    height: 2px;
+    background-color: #888;
+}
+
+.index_title_achievement {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+
+.top_page_jigyou {
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top_page_jigyou_txt {
+    max-width: 900px;
+}
+
+.index_title {
+    padding: 20px auto;
+}
+
+/*実績*/
+.achivement_main {
+    display: flex;
+    justify-content: center;
+}
+
+.achivement_detail {
+    text-align: center;
+    margin: 30px;
+}
+
+.achivement_detail>p {
+    font-weight: bold;
+}
+
+.achivement_detail>.counter {
+    font-weight: 600;
+    font-family: 'Spectral', serif;
+    font-size: 60px;
+    padding: 0 10px;
+    letter-spacing: 3px;
+    line-height: 140%;
+}
+
+.top_achivement_gazou {
+    margin: 20px;
+}
+
+.top_achievement {
+    width: 100%;
+}
+
+.index_title_achievement_txt {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.achivement_btn {
+    text-align: center;
+}
+
+.achivement_button {
+    border: none;
+    margin: 20px;
+    background-color: #ffffff;
+    width: 340px;
+    padding: 15px 0;
+    color: #000000;
+    font-size: 16px;
+    font-family: "Noto Serif JP", serif;
+    border-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 3px 3px 0 #898888;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.achivement_button::after {
+    background: darkblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+    z-index: -1;
+}
+
+.achivement_button:hover {
+    color: #fff;
+}
+
+.achivement_button:hover::after {
+    transform: scale(1, 1);
+}
+
+/*footer*/
+
+.footer_a {
+    color: #FFF;
+    background: #333;
+    padding: 80px 120px 40px 120px;
+}
+
+.footer_top_title {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Yu Mincho";
+}
+
+.footer_item {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.footer_item:hover {
+    color: red;
+}
+
+/*お問い合わせ*/
+
+.page_title {
+    background-color: rgb(10, 18, 91, 0.5);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.page_title_nav {
+    padding: 35px 0;
+    color: #ffffff;
+}
+
+.pabe_title_navs {
+    padding: 0 120px;
+    align-items: flex-end;
+}
+
+.pabe_title_navs img {
+    height: 17.6px;
+    width: auto;
+}
+
+.page_title_navhome {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.page_title_navhome:hover {
+    color: red;
+    transition: all 0.3s ease;
+}
+
+.page_title_nav h1 {
+    margin: 25px auto;
+    text-align: center;
+}
+
+.page_title_nav h1::after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 20px auto;
+}
+
+.contact_form {
+    width: 800px;
+    margin: 50px auto;
+}
+
+.contact_top {
+    margin-bottom: 50px;
+}
+
+.contact_form_in {
+    padding: 30px 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 4px rgb(150, 150, 150);
+}
+
+.contact_form_in h5,
+p {
+    margin: 10px 0;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-control-name {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #898888;
+}
+
+.form-control {
+    width: 680px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #898888;
+}
+
+.form-control-text {
+    width: 680px;
+    height: 80px;
+    border-radius: 5px;
+    border: 2px solid #898888;
+}
+
+.btn_submit_form {
+    width: 300px;
+    height: 50px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.btn_submit_form:hover {
+    color: #FFF;
+    background-color: darkblue;
+}
+
+.btn_submit_form:hover::after {
+    transform: scale(1, 1);
+}
+
+.mw_wp_form .error::before {
+    content: "※";
+    color: #B70000;
+}
+
+/*会社情報*/
+
+.contact_form p {
+    margin: 40px 0;
+}
+
+.wp-block-button__link {
+    margin-top: 30px;
+    transition: all .3s;
+}
+
+/*hoverをした後のボタンの形状*/
+.wp-block-button__link:hover {
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+    border-color: transparent;
+}
+
+/*sidebar*/
+
+.sidebar_box {
+    width: 33.3%;
+    background-color: #ffffff;
+}
+
+/*archive-news*/
+
+.news_date {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.news_title_txt {
+    margin-bottom: 20px;
+}
+
+.news_title_txt>a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.news_title_txt>a:hover {
+    color: blue;
+    transition: all 0.3s ease;
+}
+
+.news_category_txt {
+    border-bottom: 1px solid #898888;
+}
+
+.news_archive_detail {
+    padding: 16px;
+}
+
+.news_btn {
+    text-align: end;
+    text-decoration: none;
+    color: #000000;
+}
+
+.news_btn:hover {
+    color: blue;
+    transition: all 0.3s ease;
+}
+
+.news_btn>p {
+    font-size: 12px;
+}
+
+/*事業概要*/
+
+.has-medium-font-size {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.has-small-font-size {
+    text-align: center;
+    background-color: #FFF;
+    padding: 20px;
+    margin: 20px;
+}
+
+.document_banner_bn {
+    align-items: center;
+}
+
+.document_banner {
+    display: none;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 5;
+}
+
+.banner_label {
+    background: darkblue;
+    color: #fff;
+    display: block;
+    width: 300px;
+    padding: 10px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 5;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+}
+
+.banner_label::after {
+    background: #00479d;
+    box-sizing: border-box;
+    content: '+';
+    display: block;
+    font-family: "Font Awesome 5 Free";
+    height: 100%;
+    padding: 10px 20px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    z-index: 5;
+}
+
+.document_content {
+    height: 0;
+    opacity: 0;
+    transition: .5s;
+    visibility: hidden;
+    width: 320px;
+    height: 200px;
+    position: fixed;
+    right: 30px;
+    bottom: 80px;
+    background-color: #FFF;
+    z-index: 5;
+}
+
+.banner_image {
+    align-items: center;
+    width: 320px;
+    height: auto;
+    transition: none;
+    display: flex;
+    z-index: 5;
+}
+
+.document_banner:checked+.banner_label+.document_content {
+    height: 250px;
+    opacity: 1;
+    visibility: visible;
+    background-color: black;
+    z-index: 5;
+}
+
+.document_banner:checked+.banner_label::after {
+    content: "-";
+    width: 52.86px;
+}
+
+.banner_txt {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    color: #FFF;
+    z-index: 5;
+}

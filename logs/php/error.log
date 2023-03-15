@@ -1,0 +1,405 @@
+[14-Jun-2022 01:37:56 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\functions.php on line 4
+[14-Jun-2022 01:37:56 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\functions.php on line 4
+[21-Jun-2022 11:15:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'true' not found or invalid function name in C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php on line 307
+[21-Jun-2022 11:15:57 UTC] PHP Stack trace:
+[21-Jun-2022 11:15:57 UTC] PHP   1. {main}() C:\Users\yusuk\Local Sites\javava\app\public\index.php:0
+[21-Jun-2022 11:15:57 UTC] PHP   2. require() C:\Users\yusuk\Local Sites\javava\app\public\index.php:17
+[21-Jun-2022 11:15:57 UTC] PHP   3. require_once() C:\Users\yusuk\Local Sites\javava\app\public\wp-blog-header.php:19
+[21-Jun-2022 11:15:57 UTC] PHP   4. do_action() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\template-loader.php:13
+[21-Jun-2022 11:15:57 UTC] PHP   5. WP_Hook->do_action() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\plugin.php:476
+[21-Jun-2022 11:15:57 UTC] PHP   6. WP_Hook->apply_filters() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php:331
+[21-Jun-2022 11:15:57 UTC] PHP   7. _wp_admin_bar_init() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php:307
+[21-Jun-2022 11:15:57 UTC] PHP   8. is_admin_bar_showing() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\admin-bar.php:26
+[21-Jun-2022 11:15:57 UTC] PHP   9. apply_filters() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\admin-bar.php:1288
+[21-Jun-2022 11:15:57 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\plugin.php:191
+[21-Jun-2022 11:15:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'true' not found or invalid function name in C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php on line 307
+[21-Jun-2022 11:15:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'true' not found or invalid function name in C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php on line 307
+[21-Jun-2022 11:15:57 UTC] PHP Stack trace:
+[21-Jun-2022 11:15:57 UTC] PHP Stack trace:
+[21-Jun-2022 11:15:57 UTC] PHP   1. {main}() C:\Users\yusuk\Local Sites\javava\app\public\index.php:0
+[21-Jun-2022 11:15:57 UTC] PHP   1. {main}() C:\Users\yusuk\Local Sites\javava\app\public\index.php:0
+[21-Jun-2022 11:15:57 UTC] PHP   2. require() C:\Users\yusuk\Local Sites\javava\app\public\index.php:17
+[21-Jun-2022 11:15:57 UTC] PHP   2. require() C:\Users\yusuk\Local Sites\javava\app\public\index.php:17
+[21-Jun-2022 11:15:57 UTC] PHP   3. require_once() C:\Users\yusuk\Local Sites\javava\app\public\wp-blog-header.php:19
+[21-Jun-2022 11:15:57 UTC] PHP   3. require_once() C:\Users\yusuk\Local Sites\javava\app\public\wp-blog-header.php:19
+[21-Jun-2022 11:15:57 UTC] PHP   4. do_action() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\template-loader.php:13
+[21-Jun-2022 11:15:57 UTC] PHP   4. do_action() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\template-loader.php:13
+[21-Jun-2022 11:15:57 UTC] PHP   5. WP_Hook->do_action() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\plugin.php:476
+[21-Jun-2022 11:15:57 UTC] PHP   5. WP_Hook->do_action() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\plugin.php:476
+[21-Jun-2022 11:15:57 UTC] PHP   6. WP_Hook->apply_filters() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php:331
+[21-Jun-2022 11:15:57 UTC] PHP   6. WP_Hook->apply_filters() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php:331
+[21-Jun-2022 11:15:57 UTC] PHP   7. _wp_admin_bar_init() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php:307
+[21-Jun-2022 11:15:57 UTC] PHP   7. _wp_admin_bar_init() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php:307
+[21-Jun-2022 11:15:57 UTC] PHP   8. is_admin_bar_showing() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\admin-bar.php:26
+[21-Jun-2022 11:15:57 UTC] PHP   8. is_admin_bar_showing() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\admin-bar.php:26
+[21-Jun-2022 11:15:57 UTC] PHP   9. apply_filters() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\admin-bar.php:1288
+[21-Jun-2022 11:15:57 UTC] PHP   9. apply_filters() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\admin-bar.php:1288
+[21-Jun-2022 11:15:57 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\plugin.php:191
+[21-Jun-2022 11:15:57 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\plugin.php:191
+[26-Jun-2022 11:30:06 UTC] Sync process for Gutenberg Blocks has started.
+[26-Jun-2022 11:30:06 UTC] CATEGORY:Importing categories..
+[26-Jun-2022 11:30:06 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[26-Jun-2022 11:30:06 UTC] CATEGORY:Completed category import.
+[26-Jun-2022 11:30:06 UTC] BLOCK: Getting Total Blocks
+[26-Jun-2022 11:30:06 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[26-Jun-2022 11:30:06 UTC] BLOCK: Requests count 4
+[26-Jun-2022 11:30:06 UTC] BLOCK: Importing request 1 ..
+[26-Jun-2022 11:30:06 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[26-Jun-2022 11:30:06 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[26-Jun-2022 11:30:06 UTC] BLOCK: Completed request 1
+[26-Jun-2022 11:30:06 UTC] BLOCK: Importing request 2 ..
+[26-Jun-2022 11:30:06 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[26-Jun-2022 11:30:06 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[26-Jun-2022 11:30:06 UTC] BLOCK: Completed request 2
+[26-Jun-2022 11:30:06 UTC] BLOCK: Importing request 3 ..
+[26-Jun-2022 11:30:06 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[26-Jun-2022 11:30:06 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[26-Jun-2022 11:30:06 UTC] BLOCK: Completed request 3
+[26-Jun-2022 11:30:06 UTC] BLOCK: Importing request 4 ..
+[26-Jun-2022 11:30:06 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[26-Jun-2022 11:30:06 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[26-Jun-2022 11:30:06 UTC] BLOCK: Completed request 4
+[26-Jun-2022 11:30:06 UTC] SITE: Getting Total Sites
+[26-Jun-2022 11:30:06 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[26-Jun-2022 11:30:06 UTC] SITE: Request count 2
+[26-Jun-2022 11:30:06 UTC] SITE: Importing request 1 ..
+[26-Jun-2022 11:30:06 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[26-Jun-2022 11:30:06 UTC] SITE: Storing in option ast-block-templates-sites-1
+[26-Jun-2022 11:30:06 UTC] SITE: Completed request 1
+[26-Jun-2022 11:30:06 UTC] SITE: Importing request 2 ..
+[26-Jun-2022 11:30:06 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[26-Jun-2022 11:30:06 UTC] SITE: Storing in option ast-block-templates-sites-2
+[26-Jun-2022 11:30:06 UTC] SITE: Completed request 2
+[26-Jun-2022 11:30:06 UTC] Sync process for Gutenberg Blocks is done.
+[28-Jun-2022 05:00:36 UTC] Sync process for Gutenberg Blocks has started.
+[28-Jun-2022 05:00:36 UTC] CATEGORY:Importing categories..
+[28-Jun-2022 05:00:36 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[28-Jun-2022 05:00:36 UTC] CATEGORY:Completed category import.
+[28-Jun-2022 05:00:36 UTC] BLOCK: Getting Total Blocks
+[28-Jun-2022 05:00:36 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[28-Jun-2022 05:00:36 UTC] BLOCK: Requests count 4
+[28-Jun-2022 05:00:36 UTC] BLOCK: Importing request 1 ..
+[28-Jun-2022 05:00:36 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[28-Jun-2022 05:00:36 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[28-Jun-2022 05:00:36 UTC] BLOCK: Completed request 1
+[28-Jun-2022 05:00:36 UTC] BLOCK: Importing request 2 ..
+[28-Jun-2022 05:00:36 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[28-Jun-2022 05:00:36 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[28-Jun-2022 05:00:36 UTC] BLOCK: Completed request 2
+[28-Jun-2022 05:00:36 UTC] BLOCK: Importing request 3 ..
+[28-Jun-2022 05:00:36 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[28-Jun-2022 05:00:36 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[28-Jun-2022 05:00:36 UTC] BLOCK: Completed request 3
+[28-Jun-2022 05:00:36 UTC] BLOCK: Importing request 4 ..
+[28-Jun-2022 05:00:36 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[28-Jun-2022 05:00:37 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[28-Jun-2022 05:00:37 UTC] BLOCK: Completed request 4
+[28-Jun-2022 05:00:37 UTC] SITE: Getting Total Sites
+[28-Jun-2022 05:00:37 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[28-Jun-2022 05:00:37 UTC] SITE: Request count 2
+[28-Jun-2022 05:00:37 UTC] SITE: Importing request 1 ..
+[28-Jun-2022 05:00:37 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[28-Jun-2022 05:00:38 UTC] SITE: Storing in option ast-block-templates-sites-1
+[28-Jun-2022 05:00:38 UTC] SITE: Completed request 1
+[28-Jun-2022 05:00:38 UTC] SITE: Importing request 2 ..
+[28-Jun-2022 05:00:38 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[28-Jun-2022 05:00:38 UTC] SITE: Storing in option ast-block-templates-sites-2
+[28-Jun-2022 05:00:38 UTC] SITE: Completed request 2
+[28-Jun-2022 05:00:38 UTC] Sync process for Gutenberg Blocks is done.
+[28-Jun-2022 05:54:18 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 66
+[01-Jul-2022 04:22:50 UTC] Sync process for Gutenberg Blocks has started.
+[01-Jul-2022 04:22:50 UTC] CATEGORY:Importing categories..
+[01-Jul-2022 04:22:50 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[01-Jul-2022 04:22:50 UTC] CATEGORY:Completed category import.
+[01-Jul-2022 04:22:50 UTC] BLOCK: Getting Total Blocks
+[01-Jul-2022 04:22:50 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[01-Jul-2022 04:22:50 UTC] BLOCK: Requests count 4
+[01-Jul-2022 04:22:50 UTC] BLOCK: Importing request 1 ..
+[01-Jul-2022 04:22:50 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[01-Jul-2022 04:22:50 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[01-Jul-2022 04:22:50 UTC] BLOCK: Completed request 1
+[01-Jul-2022 04:22:50 UTC] BLOCK: Importing request 2 ..
+[01-Jul-2022 04:22:50 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[01-Jul-2022 04:22:50 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[01-Jul-2022 04:22:50 UTC] BLOCK: Completed request 2
+[01-Jul-2022 04:22:50 UTC] BLOCK: Importing request 3 ..
+[01-Jul-2022 04:22:50 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[01-Jul-2022 04:22:50 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[01-Jul-2022 04:22:50 UTC] BLOCK: Completed request 3
+[01-Jul-2022 04:22:50 UTC] BLOCK: Importing request 4 ..
+[01-Jul-2022 04:22:50 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[01-Jul-2022 04:22:50 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[01-Jul-2022 04:22:50 UTC] BLOCK: Completed request 4
+[01-Jul-2022 04:22:50 UTC] SITE: Getting Total Sites
+[01-Jul-2022 04:22:50 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[01-Jul-2022 04:22:50 UTC] SITE: Request count 2
+[01-Jul-2022 04:22:50 UTC] SITE: Importing request 1 ..
+[01-Jul-2022 04:22:50 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[01-Jul-2022 04:22:50 UTC] SITE: Storing in option ast-block-templates-sites-1
+[01-Jul-2022 04:22:50 UTC] SITE: Completed request 1
+[01-Jul-2022 04:22:50 UTC] SITE: Importing request 2 ..
+[01-Jul-2022 04:22:50 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[01-Jul-2022 04:22:50 UTC] SITE: Storing in option ast-block-templates-sites-2
+[01-Jul-2022 04:22:50 UTC] SITE: Completed request 2
+[01-Jul-2022 04:22:50 UTC] Sync process for Gutenberg Blocks is done.
+[02-Jul-2022 07:25:33 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:25:33 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:26:04 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:26:04 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:26:08 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:26:08 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:26:10 UTC] Sync process for Gutenberg Blocks has started.
+[02-Jul-2022 07:26:10 UTC] CATEGORY:Importing categories..
+[02-Jul-2022 07:26:10 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[02-Jul-2022 07:26:10 UTC] CATEGORY:Completed category import.
+[02-Jul-2022 07:26:10 UTC] BLOCK: Getting Total Blocks
+[02-Jul-2022 07:26:10 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[02-Jul-2022 07:26:10 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:26:11 UTC] BLOCK: Requests count 4
+[02-Jul-2022 07:26:11 UTC] BLOCK: Importing request 1 ..
+[02-Jul-2022 07:26:11 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[02-Jul-2022 07:26:11 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[02-Jul-2022 07:26:11 UTC] BLOCK: Completed request 1
+[02-Jul-2022 07:26:11 UTC] BLOCK: Importing request 2 ..
+[02-Jul-2022 07:26:11 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[02-Jul-2022 07:26:11 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[02-Jul-2022 07:26:11 UTC] BLOCK: Completed request 2
+[02-Jul-2022 07:26:11 UTC] BLOCK: Importing request 3 ..
+[02-Jul-2022 07:26:11 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[02-Jul-2022 07:26:11 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[02-Jul-2022 07:26:11 UTC] BLOCK: Completed request 3
+[02-Jul-2022 07:26:11 UTC] BLOCK: Importing request 4 ..
+[02-Jul-2022 07:26:11 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[02-Jul-2022 07:26:11 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[02-Jul-2022 07:26:11 UTC] BLOCK: Completed request 4
+[02-Jul-2022 07:26:11 UTC] SITE: Getting Total Sites
+[02-Jul-2022 07:26:11 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[02-Jul-2022 07:26:11 UTC] SITE: Request count 2
+[02-Jul-2022 07:26:11 UTC] SITE: Importing request 1 ..
+[02-Jul-2022 07:26:11 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[02-Jul-2022 07:26:11 UTC] SITE: Storing in option ast-block-templates-sites-1
+[02-Jul-2022 07:26:11 UTC] SITE: Completed request 1
+[02-Jul-2022 07:26:11 UTC] SITE: Importing request 2 ..
+[02-Jul-2022 07:26:11 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[02-Jul-2022 07:26:11 UTC] SITE: Storing in option ast-block-templates-sites-2
+[02-Jul-2022 07:26:11 UTC] SITE: Completed request 2
+[02-Jul-2022 07:26:11 UTC] Sync process for Gutenberg Blocks is done.
+[02-Jul-2022 07:26:12 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:29:06 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:29:08 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:29:08 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:29:09 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:29:09 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:29:12 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:29:12 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:29:20 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:29:20 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:31:35 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:31:35 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:31:45 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:31:45 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:33:35 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:33:35 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:33:37 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:33:37 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:35:35 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:35:35 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 114
+[02-Jul-2022 07:36:48 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 115
+[02-Jul-2022 07:37:09 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\index.php on line 115
+[03-Jul-2022 04:45:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\archive-achievements.php:36
+Stack trace:
+#0 C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\yusuk\Local Sites\javava\app\public\wp-blog-header.php(19): require_once('C:\\Users\\yusuk\\...')
+#2 C:\Users\yusuk\Local Sites\javava\app\public\index.php(17): require('C:\\Users\\yusuk\\...')
+#3 {main}
+  thrown in C:\Users\yusuk\Local Sites\javava\app\public\wp-content\themes\javava\archive-achievements.php on line 36
+[17-Jul-2022 02:36:20 UTC] Sync process for Gutenberg Blocks has started.
+[17-Jul-2022 02:36:20 UTC] CATEGORY:Importing categories..
+[17-Jul-2022 02:36:20 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[17-Jul-2022 02:36:20 UTC] CATEGORY:Completed category import.
+[17-Jul-2022 02:36:20 UTC] BLOCK: Getting Total Blocks
+[17-Jul-2022 02:36:20 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[17-Jul-2022 02:36:21 UTC] BLOCK: Requests count 4
+[17-Jul-2022 02:36:21 UTC] BLOCK: Importing request 1 ..
+[17-Jul-2022 02:36:21 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[17-Jul-2022 02:36:21 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[17-Jul-2022 02:36:21 UTC] BLOCK: Completed request 1
+[17-Jul-2022 02:36:21 UTC] BLOCK: Importing request 2 ..
+[17-Jul-2022 02:36:21 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[17-Jul-2022 02:36:21 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[17-Jul-2022 02:36:21 UTC] BLOCK: Completed request 2
+[17-Jul-2022 02:36:21 UTC] BLOCK: Importing request 3 ..
+[17-Jul-2022 02:36:21 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[17-Jul-2022 02:36:21 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[17-Jul-2022 02:36:21 UTC] BLOCK: Completed request 3
+[17-Jul-2022 02:36:21 UTC] BLOCK: Importing request 4 ..
+[17-Jul-2022 02:36:21 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[17-Jul-2022 02:36:21 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[17-Jul-2022 02:36:21 UTC] BLOCK: Completed request 4
+[17-Jul-2022 02:36:21 UTC] SITE: Getting Total Sites
+[17-Jul-2022 02:36:21 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[17-Jul-2022 02:36:21 UTC] SITE: Request count 2
+[17-Jul-2022 02:36:21 UTC] SITE: Importing request 1 ..
+[17-Jul-2022 02:36:21 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[17-Jul-2022 02:36:21 UTC] SITE: Storing in option ast-block-templates-sites-1
+[17-Jul-2022 02:36:21 UTC] SITE: Completed request 1
+[17-Jul-2022 02:36:21 UTC] SITE: Importing request 2 ..
+[17-Jul-2022 02:36:21 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[17-Jul-2022 02:36:21 UTC] SITE: Storing in option ast-block-templates-sites-2
+[17-Jul-2022 02:36:21 UTC] SITE: Completed request 2
+[17-Jul-2022 02:36:21 UTC] Sync process for Gutenberg Blocks is done.
+[19-Jul-2022 07:22:25 UTC] Sync process for Gutenberg Blocks has started.
+[19-Jul-2022 07:22:25 UTC] CATEGORY:Importing categories..
+[19-Jul-2022 07:22:25 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[19-Jul-2022 07:22:25 UTC] CATEGORY:Completed category import.
+[19-Jul-2022 07:22:25 UTC] BLOCK: Getting Total Blocks
+[19-Jul-2022 07:22:25 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[19-Jul-2022 07:22:25 UTC] BLOCK: Requests count 4
+[19-Jul-2022 07:22:25 UTC] BLOCK: Importing request 1 ..
+[19-Jul-2022 07:22:25 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[19-Jul-2022 07:22:25 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[19-Jul-2022 07:22:25 UTC] BLOCK: Completed request 1
+[19-Jul-2022 07:22:25 UTC] BLOCK: Importing request 2 ..
+[19-Jul-2022 07:22:25 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[19-Jul-2022 07:22:25 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[19-Jul-2022 07:22:25 UTC] BLOCK: Completed request 2
+[19-Jul-2022 07:22:25 UTC] BLOCK: Importing request 3 ..
+[19-Jul-2022 07:22:25 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[19-Jul-2022 07:22:25 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[19-Jul-2022 07:22:25 UTC] BLOCK: Completed request 3
+[19-Jul-2022 07:22:25 UTC] BLOCK: Importing request 4 ..
+[19-Jul-2022 07:22:25 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[19-Jul-2022 07:22:25 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[19-Jul-2022 07:22:25 UTC] BLOCK: Completed request 4
+[19-Jul-2022 07:22:25 UTC] SITE: Getting Total Sites
+[19-Jul-2022 07:22:25 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[19-Jul-2022 07:22:25 UTC] SITE: Request count 2
+[19-Jul-2022 07:22:25 UTC] SITE: Importing request 1 ..
+[19-Jul-2022 07:22:25 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[19-Jul-2022 07:22:25 UTC] SITE: Storing in option ast-block-templates-sites-1
+[19-Jul-2022 07:22:25 UTC] SITE: Completed request 1
+[19-Jul-2022 07:22:25 UTC] SITE: Importing request 2 ..
+[19-Jul-2022 07:22:25 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[19-Jul-2022 07:22:26 UTC] SITE: Storing in option ast-block-templates-sites-2
+[19-Jul-2022 07:22:26 UTC] SITE: Completed request 2
+[19-Jul-2022 07:22:26 UTC] Sync process for Gutenberg Blocks is done.
+[19-Jul-2022 09:07:07 UTC] PHP Warning:  substr() expects parameter 1 to be string, array given in C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\general-template.php on line 2275
+[19-Jul-2022 09:07:07 UTC] PHP Stack trace:
+[19-Jul-2022 09:07:07 UTC] PHP   1. {main}() C:\Users\yusuk\Local Sites\javava\app\public\index.php:0
+[19-Jul-2022 09:07:07 UTC] PHP   2. require() C:\Users\yusuk\Local Sites\javava\app\public\index.php:17
+[19-Jul-2022 09:07:07 UTC] PHP   3. wp() C:\Users\yusuk\Local Sites\javava\app\public\wp-blog-header.php:16
+[19-Jul-2022 09:07:07 UTC] PHP   4. WP->main() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\functions.php:1330
+[19-Jul-2022 09:07:07 UTC] PHP   5. WP->parse_request() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp.php:770
+[19-Jul-2022 09:07:07 UTC] PHP   6. do_action_ref_array() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp.php:398
+[19-Jul-2022 09:07:07 UTC] PHP   7. WP_Hook->do_action() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\plugin.php:524
+[19-Jul-2022 09:07:07 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php:331
+[19-Jul-2022 09:07:07 UTC] PHP   9. rest_api_loaded() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php:307
+[19-Jul-2022 09:07:07 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api.php:394
+[19-Jul-2022 09:07:07 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\class-wp-rest-server.php:414
+[19-Jul-2022 09:07:07 UTC] PHP  12. WP_REST_Server->respond_to_request() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\class-wp-rest-server.php:990
+[19-Jul-2022 09:07:07 UTC] PHP  13. WP_REST_Block_Renderer_Controller->get_item() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\class-wp-rest-server.php:1143
+[19-Jul-2022 09:07:07 UTC] PHP  14. render_block() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\endpoints\class-wp-rest-block-renderer-controller.php:190
+[19-Jul-2022 09:07:07 UTC] PHP  15. WP_Block->render() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\blocks.php:901
+[19-Jul-2022 09:07:07 UTC] PHP  16. render_block_core_calendar() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-block.php:255
+[19-Jul-2022 09:07:07 UTC] PHP  17. get_calendar() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\blocks\calendar.php:47
+[19-Jul-2022 09:07:07 UTC] PHP  18. substr() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\general-template.php:2275
+[19-Jul-2022 09:07:07 UTC] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\general-template.php on line 2276
+[19-Jul-2022 09:07:07 UTC] PHP Stack trace:
+[19-Jul-2022 09:07:07 UTC] PHP   1. {main}() C:\Users\yusuk\Local Sites\javava\app\public\index.php:0
+[19-Jul-2022 09:07:07 UTC] PHP   2. require() C:\Users\yusuk\Local Sites\javava\app\public\index.php:17
+[19-Jul-2022 09:07:07 UTC] PHP   3. wp() C:\Users\yusuk\Local Sites\javava\app\public\wp-blog-header.php:16
+[19-Jul-2022 09:07:07 UTC] PHP   4. WP->main() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\functions.php:1330
+[19-Jul-2022 09:07:07 UTC] PHP   5. WP->parse_request() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp.php:770
+[19-Jul-2022 09:07:07 UTC] PHP   6. do_action_ref_array() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp.php:398
+[19-Jul-2022 09:07:07 UTC] PHP   7. WP_Hook->do_action() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\plugin.php:524
+[19-Jul-2022 09:07:07 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php:331
+[19-Jul-2022 09:07:07 UTC] PHP   9. rest_api_loaded() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php:307
+[19-Jul-2022 09:07:07 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api.php:394
+[19-Jul-2022 09:07:07 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\class-wp-rest-server.php:414
+[19-Jul-2022 09:07:07 UTC] PHP  12. WP_REST_Server->respond_to_request() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\class-wp-rest-server.php:990
+[19-Jul-2022 09:07:07 UTC] PHP  13. WP_REST_Block_Renderer_Controller->get_item() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\class-wp-rest-server.php:1143
+[19-Jul-2022 09:07:07 UTC] PHP  14. render_block() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\endpoints\class-wp-rest-block-renderer-controller.php:190
+[19-Jul-2022 09:07:07 UTC] PHP  15. WP_Block->render() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\blocks.php:901
+[19-Jul-2022 09:07:07 UTC] PHP  16. render_block_core_calendar() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-block.php:255
+[19-Jul-2022 09:07:07 UTC] PHP  17. get_calendar() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\blocks\calendar.php:47
+[19-Jul-2022 09:07:14 UTC] PHP Warning:  substr() expects parameter 1 to be string, array given in C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\general-template.php on line 2275
+[19-Jul-2022 09:07:14 UTC] PHP Stack trace:
+[19-Jul-2022 09:07:14 UTC] PHP   1. {main}() C:\Users\yusuk\Local Sites\javava\app\public\index.php:0
+[19-Jul-2022 09:07:14 UTC] PHP   2. require() C:\Users\yusuk\Local Sites\javava\app\public\index.php:17
+[19-Jul-2022 09:07:14 UTC] PHP   3. wp() C:\Users\yusuk\Local Sites\javava\app\public\wp-blog-header.php:16
+[19-Jul-2022 09:07:14 UTC] PHP   4. WP->main() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\functions.php:1330
+[19-Jul-2022 09:07:14 UTC] PHP   5. WP->parse_request() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp.php:770
+[19-Jul-2022 09:07:14 UTC] PHP   6. do_action_ref_array() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp.php:398
+[19-Jul-2022 09:07:14 UTC] PHP   7. WP_Hook->do_action() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\plugin.php:524
+[19-Jul-2022 09:07:14 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php:331
+[19-Jul-2022 09:07:14 UTC] PHP   9. rest_api_loaded() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php:307
+[19-Jul-2022 09:07:14 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api.php:394
+[19-Jul-2022 09:07:14 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\class-wp-rest-server.php:414
+[19-Jul-2022 09:07:14 UTC] PHP  12. WP_REST_Server->respond_to_request() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\class-wp-rest-server.php:990
+[19-Jul-2022 09:07:14 UTC] PHP  13. WP_REST_Block_Renderer_Controller->get_item() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\class-wp-rest-server.php:1143
+[19-Jul-2022 09:07:14 UTC] PHP  14. render_block() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\endpoints\class-wp-rest-block-renderer-controller.php:190
+[19-Jul-2022 09:07:14 UTC] PHP  15. WP_Block->render() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\blocks.php:901
+[19-Jul-2022 09:07:14 UTC] PHP  16. render_block_core_calendar() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-block.php:255
+[19-Jul-2022 09:07:14 UTC] PHP  17. get_calendar() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\blocks\calendar.php:47
+[19-Jul-2022 09:07:14 UTC] PHP  18. substr() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\general-template.php:2275
+[19-Jul-2022 09:07:14 UTC] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\general-template.php on line 2276
+[19-Jul-2022 09:07:14 UTC] PHP Stack trace:
+[19-Jul-2022 09:07:14 UTC] PHP   1. {main}() C:\Users\yusuk\Local Sites\javava\app\public\index.php:0
+[19-Jul-2022 09:07:14 UTC] PHP   2. require() C:\Users\yusuk\Local Sites\javava\app\public\index.php:17
+[19-Jul-2022 09:07:14 UTC] PHP   3. wp() C:\Users\yusuk\Local Sites\javava\app\public\wp-blog-header.php:16
+[19-Jul-2022 09:07:14 UTC] PHP   4. WP->main() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\functions.php:1330
+[19-Jul-2022 09:07:14 UTC] PHP   5. WP->parse_request() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp.php:770
+[19-Jul-2022 09:07:14 UTC] PHP   6. do_action_ref_array() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp.php:398
+[19-Jul-2022 09:07:14 UTC] PHP   7. WP_Hook->do_action() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\plugin.php:524
+[19-Jul-2022 09:07:14 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php:331
+[19-Jul-2022 09:07:14 UTC] PHP   9. rest_api_loaded() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-hook.php:307
+[19-Jul-2022 09:07:14 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api.php:394
+[19-Jul-2022 09:07:14 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\class-wp-rest-server.php:414
+[19-Jul-2022 09:07:14 UTC] PHP  12. WP_REST_Server->respond_to_request() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\class-wp-rest-server.php:990
+[19-Jul-2022 09:07:14 UTC] PHP  13. WP_REST_Block_Renderer_Controller->get_item() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\class-wp-rest-server.php:1143
+[19-Jul-2022 09:07:14 UTC] PHP  14. render_block() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\rest-api\endpoints\class-wp-rest-block-renderer-controller.php:190
+[19-Jul-2022 09:07:14 UTC] PHP  15. WP_Block->render() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\blocks.php:901
+[19-Jul-2022 09:07:14 UTC] PHP  16. render_block_core_calendar() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\class-wp-block.php:255
+[19-Jul-2022 09:07:14 UTC] PHP  17. get_calendar() C:\Users\yusuk\Local Sites\javava\app\public\wp-includes\blocks\calendar.php:47
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  Failed loading Zend extension 'php_opcache.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_opcache.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_opcache.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  Failed loading Zend extension 'php_xdebug.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_xdebug.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_xdebug.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_fileinfo.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_fileinfo.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_fileinfo.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_curl.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_curl.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_curl.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gettext.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_gettext.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_gettext.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_openssl.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_openssl.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_exif.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_exif.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_exif.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_gd2.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_gd2.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_ftp.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_ftp.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_ftp.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imap.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imap.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imap.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_bz2.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_bz2.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_bz2.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mbstring.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_mbstring.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_mbstring.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sodium.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_sodium.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_sodium.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_tidy.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_tidy.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_tidy.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xsl.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_xsl.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_xsl.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_xmlrpc.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_xmlrpc.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_soap.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_soap.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_soap.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mysqli.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_mysqli.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_mysqli.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_mysql.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_pdo_mysql.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_pdo_mysql.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  Failed loading Zend extension 'php_opcache.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_opcache.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_opcache.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  Failed loading Zend extension 'php_xdebug.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_xdebug.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_xdebug.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_fileinfo.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_fileinfo.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_fileinfo.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_curl.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_curl.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_curl.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gettext.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_gettext.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_gettext.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_openssl.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_openssl.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_exif.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_exif.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_exif.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_gd2.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_gd2.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_ftp.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_ftp.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_ftp.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imap.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imap.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imap.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_bz2.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_bz2.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_bz2.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mbstring.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_mbstring.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_mbstring.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sodium.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_sodium.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_sodium.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_tidy.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_tidy.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_tidy.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xsl.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_xsl.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_xsl.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_xmlrpc.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_xmlrpc.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_soap.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_soap.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_soap.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mysqli.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_mysqli.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_mysqli.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_mysql.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_pdo_mysql.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_pdo_mysql.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (指定されたモジュールが見つかりません。), C:/Users/yusuk/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_intl.dll' (tried: C:/Users/yusuk/AppData/Roaming/Local/lightning-services/php-7.4.30+5/bin/win64/ext\php_intl.dll (プロセスはファイルにアクセスできません。別のプロセスが使用中です。), C:/Users/yusuk/AppData/Roaming/Local/lightning-services/php-7.4.30+5/bin/win64/ext\php_php_intl.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
+[05-Mar-2023 06:05:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_intl.dll' (tried: C:/Users/yusuk/AppData/Roaming/Local/lightning-services/php-7.4.30+5/bin/win64/ext\php_intl.dll (プロセスはファイルにアクセスできません。別のプロセスが使用中です。), C:/Users/yusuk/AppData/Roaming/Local/lightning-services/php-7.4.30+5/bin/win64/ext\php_php_intl.dll.dll (指定されたモジュールが見つかりません。)) in Unknown on line 0
